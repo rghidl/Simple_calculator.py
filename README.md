@@ -1,39 +1,38 @@
-# Simple Python Calculator
+# Simple Calculator 🧮
 
-This is a beginner-level Python project that works as a simple calculator.  
-The user can choose between four operations: multiply, divide, add, and subtract.  
-It also includes basic error handling like dividing by zero or entering invalid input.
+This is a simple Python project I made to practice basic programming.  
+The program is a calculator that runs in the terminal.  
+The user picks an operation (add, subtract, multiply, divide), then enters two numbers, and gets the result.
 
-## Features
+## Features:
 
-- Multiply two numbers
-- Divide two numbers
-- Add two numbers
-- Subtract two numbers
-- Error handling for invalid input and zero division
+- Checks if the user enters something that's not a number.
+- Shows a message if someone tries to divide by zero.
+- Tells the user if they pick a wrong option.
+- Very beginner-friendly 🌟
 
-## How to Use
+## How to use it:
 
-1. Run the Python file.
-2. Choose the operation you want (1 to 4).
-3. Enter the first and second numbers.
-4. The result will be shown.
+1. Run the file `calculator.py`
+2. You will see a menu asking you to pick a function:
+   - 1: multiply
+   - 2: divide
+   - 3: add
+   - 4: subtract
+3. Then enter the two numbers
+4. You’ll see the result, or a message if there’s a mistake
 
-## Example
+## Why I made it:
 
-```
-Pick a function: 
- 1-multiply 
- 2-divide 
- 3-add 
- 4-subtract 
-> 2
-Pick the first number: 10
-Pick the second number: 0
-❌ You can't divide by zero!
-✅ Done.
-```
+I wanted to practice:
+- If/else statements
+- Try/except for error handling
+- How to deal with user input
 
-## Requirements
+## Language used:
 
-- Python 3.x
+- Python 3 🐍
+
+---
+
+
